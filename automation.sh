@@ -20,7 +20,7 @@ then
 fi
 
 echo ">Checking if aws cli is installed"
-type -p apache2 > /dev/null 2>&1 || {
+type -p aws > /dev/null 2>&1 || {
         echo ">[aws] NOT found!, installing it ..."
 }
 sleep 2
